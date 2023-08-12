@@ -1,0 +1,2 @@
+!function(){"use strict";var e={};(function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})})(e);var t=document.querySelector(".body").querySelector(".trip-main");t.querySelector(".trip-events"),t.querySelector(".trip-controls__filters"),new e.SitePresenter({container:tripEventsElement}).init()}();
+//# sourceMappingURL=bundle.71acdf6b567756ec6303.js.map
