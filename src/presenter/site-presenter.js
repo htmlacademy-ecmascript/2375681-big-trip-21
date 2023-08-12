@@ -1,5 +1,5 @@
 import { render } from '../render.js';
-import EventListView  from './../view/event-list-view.js';
+import EventListView from './../view/event-list-view.js';
 import FiltersView from './../view/filters-view.js';
 import SortView from './../view/sort-view.js';
 import FormCreateView from './../view/form-create-view.js';
