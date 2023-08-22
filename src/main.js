@@ -1,4 +1,4 @@
-import { render } from './render.js';
+import { render } from './framework/render.js';
 import SitePresenter from './presenter/site-presenter';
 import SortView from './view/sort-view.js';
 import OffersModel from './model/offers-model.js';
@@ -11,11 +11,16 @@ const pointsModel = new PointsModel();
 const offersModel = new OffersModel();
 const destinationsModel = new DestinationsModel();
 
-const sitePresenter = new SitePresenter({container: tripEventsElement, pointsModel, offersModel, destinationsModel});
+const sitePresenter = new SitePresenter({
+  container: tripEventsElement,
+  pointsModel,
+  offersModel,
+  destinationsModel
+});
 
 
 render(new SortView(), tripEventsElement);
 
 sitePresenter.init();
 
-export { pointsModel, offersModel, destinationsModel };
+
